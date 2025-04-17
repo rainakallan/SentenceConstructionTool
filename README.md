@@ -18,7 +18,7 @@ Tech Stack
 
   **This project helped me:
 
--Practice handling dynamic UI rendering based on structured data
--Implement timed user interaction and auto-navigation
--Create a user-friendly and mobile-first interface with Tailwind CSS
--Simulate real-world quiz logic and feedback systems
+- Practice handling dynamic UI rendering based on structured data
+- Implement timed user interaction and auto-navigation
+- Create a user-friendly and mobile-first interface with Tailwind CSS
+- Simulate real-world quiz logic and feedback systems
