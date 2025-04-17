@@ -1,12 +1,24 @@
-# React + Vite
+An interactive, sentence-based quiz application built with **React**, **Vite**, and **Tailwind CSS**. Designed to help users improve their grammar and sentence construction skills through a fun and responsive interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Key Features
 
-Currently, two official plugins are available:
+-  Fill-in-the-blank sentence questions
+-  Multiple word options per blank
+-  Question timer to add challenge
+-  Automatic navigation through questions
+-  Real-time feedback and score summary
+-  Responsive design using Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+Tech Stack
+- *React** (Functional Components + Hooks)
+- **Vite** (for fast and modern build setup)
+- **Tailwind CSS** (for styling)
+- **JSON Server** / mock API (for quiz data)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  **This project helped me:
+
+-Practice handling dynamic UI rendering based on structured data
+-Implement timed user interaction and auto-navigation
+-Create a user-friendly and mobile-first interface with Tailwind CSS
+-Simulate real-world quiz logic and feedback systems
