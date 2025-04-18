@@ -39,15 +39,9 @@ const Home = () => {
         </div>
 
         {/* Buttons */}
-        <div className="flex gap-4">
-          <button
-            className="px-6 py-3 border border-indigo-500 text-indigo-700 rounded-xl hover:bg-indigo-50 transition"
-            onClick={() => navigate(-1)}
-          >
-            Back
-          </button>
-          <button
-            className="
+
+        <button
+          className="
             px-6
             py-3
             border
@@ -56,11 +50,10 @@ const Home = () => {
             rounded-xl
             hover:bg-indigo-700 hover:text-white
             transition"
-            onClick={() => navigate("/quiz")}
-          >
-            Start
-          </button>
-        </div>
+          onClick={() => navigate("/quiz")}
+        >
+          Start
+        </button>
       </main>
     </div>
   );

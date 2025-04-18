@@ -177,6 +177,7 @@ const Quiz = () => {
               </button>
             ))}
           </div>
+
           <button
             onClick={handleNext}
             disabled={!isNextEnabled}
