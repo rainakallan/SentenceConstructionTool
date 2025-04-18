@@ -17,6 +17,8 @@ Tech Stack
 - **JSON Server** / mock API (for quiz data)
 - **Firebase Realtime database (for storing and syncing data in real-time)
 
+
+
   **This project helped me:
 
 - Practice handling dynamic UI rendering based on structured data
