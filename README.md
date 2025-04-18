@@ -15,6 +15,7 @@ Tech Stack
 - **Vite** (for fast and modern build setup)
 - **Tailwind CSS** (for styling)
 - **JSON Server** / mock API (for quiz data)
+- **Firebase Realtime database (for storing and syncing data in real-time)
 
   **This project helped me:
 
