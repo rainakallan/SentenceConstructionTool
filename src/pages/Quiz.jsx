@@ -36,7 +36,7 @@ const Quiz = () => {
     const fetchQuestion = async () => {
       try {
         const response = await fetch(
-          "http://127.0.0.1:5001/jsondb-9110d/us-central1/getQuestions"
+          "https://us-central1-jsondb-9110d.cloudfunctions.net/getQuestions"
         );
         const data = await response.json();
 
