@@ -36,7 +36,7 @@ const Quiz = () => {
     const fetchQuestion = async () => {
       try {
         const response = await fetch(
-          "https://us-central1-jsondb-9110d.cloudfunctions.net/getQuestions"
+          "https://jsondb-9110d-default-rtdb.firebaseio.com/questions.json"
         );
         const data = await response.json();
 
